@@ -31,11 +31,13 @@ Mark down symbol is like html tag to determine text's format:
 **list**: these are two kind of list, **ordered list** and **unordered list**  
  Unordered list: push one star at the begining or line (add blank space after the star mark). Each list level is difference by one blank space
 * This is list level 1
- * this is list level 2
-  * this is list level 3
+  * this is list level 2
+   * this is list level 3
 * Another list level 1  
+
  Ordered list: you add the number at the beginning of the line as you want how it show to you.
  1. this is fist list item
   * this is the sub item
+  
  2. this is second list item
  3. list is third list item
