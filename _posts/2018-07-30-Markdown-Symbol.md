@@ -32,7 +32,7 @@ Mark down symbol is like html tag to determine text's format:
  Unordered list: push one star at the begining or line (add blank space after the star mark). Each list level is difference by one blank space
 * This is list level 1
   * this is list level 2
-   * this is list level 3
+    * this is list level 3
 * Another list level 1  
 
  Ordered list: you add the number at the beginning of the line as you want how it show to you.
