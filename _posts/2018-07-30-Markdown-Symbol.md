@@ -20,7 +20,7 @@ Mark down symbol is like html tag to determine text's format:
 ###This is header level three
 
 **Link**: these are two kind of link: _inline link_ and _reference link_  
- * **Inline Link**: [text for the link](link page)  
+ * **Inline Link**: [text for the link] (link page)  
     we must write exactyly the link in link page
- * **reference link**: [text for the link][reference link you must define the reference link at the end of file with fomat: [reference link]: the page link  
+ * **reference link**: [text for the link] [reference link] you must define the reference link at the end of file with fomat: [reference link]: the page link  
     the advantage of this kind is we can change the link page just at the end of the file, not need to change every where the link page used.
