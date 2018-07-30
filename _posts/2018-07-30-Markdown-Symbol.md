@@ -42,5 +42,5 @@ Mark down symbol is like html tag to determine text's format:
  2. this is second list item
  3. list is third list item
 
-**Paragraph**: use larger than mark to start paragraph ">"
+**Paragraph**: use larger than mark for blockquotes ">"  
   For force line break, use 2 enter mark. For soft line break, use two blank space at the end of the line
