@@ -16,6 +16,7 @@ Mark down symbol is like html tag to determine text's format:
 >EX: **this is bold text**
     
 **#** : make the header level. how many symbol will stand for which header level (one symbol: header level 1, two symbol: header level two)
+
 ###This is header level three
     
  
