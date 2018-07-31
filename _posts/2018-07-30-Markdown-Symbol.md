@@ -1,7 +1,7 @@
 ---
 layout: post
 title: mark down symbol
-subtitle: Each post also has a subtitle
+subtitle: Mark down simple symbol
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
