@@ -8,7 +8,7 @@ tags: [C++ complier, linker]
 ---
 
 Khi chúng ta viết chương trình C++ và build, trình biên dịch sẽ build mỗi file source thành 1 file object khác nhau.  
-Khi chúng ta thay đổi code trong 1 file nào đó, chỉ file bị thay đổi sẽ được biên dịch lại, các file không bị thay đổi sẽ không được build lại.
+Khi chúng ta thay đổi code trong 1 file nào đó, chỉ file bị thay đổi sẽ được biên dịch lại, các file không bị thay đổi sẽ không phải build lại.
 Điều này làm giảm thời gian biên dịch và có thể thấy rõ hiệu quả trong các dự án lớn.  
  Nếu biên dịch bị lỗi, đầu của mỗi lỗi sẽ có chữ **C**
  
