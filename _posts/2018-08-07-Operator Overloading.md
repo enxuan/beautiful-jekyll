@@ -24,9 +24,7 @@ Khai báo:
     bool b = a1 < 10;  
  
 * Với hàm tự do:  
- <pre>
- <kiểu dữ liệu trả về> operator<operator sign>(<other type> <param 1>, <your class> <param 2>) 
- </pre>
+ \<kiểu dữ liệu trả về\> operator\<operator sign\>(\<other type\> \<param 1\>, \<your class\> \<param 2\>) 
  EX bool operator<(int i, MyClass a);  
   Using:  
     MyClass a1;  
