@@ -32,6 +32,6 @@ Khai báo:
 > Chú ý
 Với member class function, chúng ta có thể truy cập các biến private nhưng với hàm tự do, chúng ta không thể truy cập các biến private này
 Khi chúng ta viết operator với hàm tự do cần dùng tới private member  của class, chúng ta có thể có những cách sau:
-* Khai báo hàm pulic để lấy giá trị cần sử dụng ví dụ: getName, getID, .. và sử dụng các hàm get này trong hàm tự do.
+>* Khai báo hàm pulic để lấy giá trị cần sử dụng ví dụ: getName, getID, .. và sử dụng các hàm get này trong hàm tự do.
  Nhược điểm: mất tính đóng gói dữ liệu mà chúng ta đã thiết kế trước đó
-* Khai báo hàm tự do là friend function của lớp, cách này sẽ không phá vỡ cấu trúc của lớp chúng ta thiết kế là có thể sử dụng tới private member variable
+>* Khai báo hàm tự do là friend function của lớp, cách này sẽ không phá vỡ cấu trúc của lớp chúng ta thiết kế là có thể sử dụng tới private member variable
