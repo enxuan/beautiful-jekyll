@@ -16,3 +16,10 @@ C++ có cơ chế hỗ trợ chúng ta dùng các toán tử này với các l�
 ### Cách dùng
 
 Khai báo:
+* Với class member function:
+  <kiểu dữ liệu trả về> <Class name>::operator<operator sign> (<other type> <param name>)
+  EX: bool MyClass::operator<(int i);
+  Using: 
+    MyClass a1;
+    bool b = a1 < 10;
+  
