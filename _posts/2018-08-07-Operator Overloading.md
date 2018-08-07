@@ -1,7 +1,7 @@
 ---
 layout: post
-title: C++ Compiler và Linker
-subtitle: C++ Compiler và Linker
+title: C++ Operator Overloading
+subtitle: C++ Operator 
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [C++ operator overloading, ghi đè toán tử]
