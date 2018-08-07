@@ -17,9 +17,7 @@ C++ có cơ chế hỗ trợ chúng ta dùng các toán tử này với các l�
 
 Khai báo:
 * Với class member function:  
- <pre>
- <kiểu dữ liệu trả về> <Class name>::operator<operator sign> (<other type> <param name>)  
- </pre>
+ \<kiểu dữ liệu trả về\> \<Class name\>::operator\<operator sign\> (\<other type\> \<param name\>)  
   EX: bool MyClass::operator<(int i);  
   Using:  
     MyClass a1;  
