@@ -21,8 +21,12 @@ string getname() const // thể hiện hàm ko thay đổi giá trị của bi�
 Trong pointer:  
 Với pointer, const có các ý nghĩa sau, phụ thuộc vào vị trí của từ khoá const và dấu \"\*\"  
 
-* int const \*pt; // pt là con trỏ tới một hằng số và chúng ta không thể thay đổi giá trị của \*pt
+* int const \*pt; // pointer to a const - pt là con trỏ tới một hằng số và chúng ta không thể thay đổi giá trị của \*pt
   \*pt = 7; // không hợp lệ vì không thể thay đổi giá trị của \*pt  
   pt = \&j; // hợp lệ vì chúng ta chỉ không thể thay đổi giá trị của \*pt nên chúng ta có thể thay đổi địa chỉ pt trỏ tới
   
-* int \* const 
+* int \* const pt; // const pointer - pt là con trỏ trỏ tới một địa chỉ cố định và không thể thay đổi địa chỉ này  
+  \*pt = 10; // hợp lệ vì chúng ta chỉ không thể thay đổi địa chỉ pt trỏ tới vậy nên chúng ta vẫn có thể thay đổi giá trị của \*pt  
+  pt = \&j; //không hợp lệ vì chúng ta không thể thay đổi địa chỉ pt trỏ tới
+  
+* int const \* const pt; // const pointer to a const -  ta không thể thay đổi địa chỉ pt trỏ tới cũng như không thể thay đổi \*pt
